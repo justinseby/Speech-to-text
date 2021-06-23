@@ -16,7 +16,27 @@ AS an user i should be able to give path of the audio file and the program displ
 Python (nltk, speech_recognition etc)
 
 ## Code Examples
+  
+import speech_recognition as sr
+import nltk
+from nltk.tokenize import sent_tokenize, word_tokenize
+from textblob import TextBlob
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
+r = sr.Recognizer()
+
+#Opening the audio file
+with sr.AudioFile("1.wav") as source:
+    print('Audio analysed')
+    audio = r.listen(source)   
+try:
+    print("Working on.....")
+    text =r.recognize_google(audio)
+    print(text)
+
+except Exception as e:
+    print(e)
   
 
 ## Contact
