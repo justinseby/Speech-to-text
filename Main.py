@@ -5,6 +5,7 @@ from textblob import TextBlob
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
+
 r = sr.Recognizer()
 
 #Opening the audio file
