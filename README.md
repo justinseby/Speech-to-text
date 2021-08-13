@@ -27,6 +27,7 @@ from nltk.tokenize import word_tokenize
 
 r = sr.Recognizer()
 
+
 #Opening the audio file
 with sr.AudioFile("1.wav") as source:
     print('Audio analysed')
@@ -35,6 +36,7 @@ try:
     print("Working on.....")
     text =r.recognize_google(audio)
     print(text)
+
 
 except Exception as e:
     print(e)
