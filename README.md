@@ -26,7 +26,6 @@ from nltk.tokenize import word_tokenize
 
 r = sr.Recognizer()
 
-
 #Opening the audio file
 with sr.AudioFile("1.wav") as source:
     print('Audio analysed')
