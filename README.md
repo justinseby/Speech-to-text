@@ -8,7 +8,6 @@ To build a model to recognize emotion from speech and transcribed, then convert 
 * [Code Examples](#codeexamples)
 * [Contact](#contact)
 
-
 ## General info
 AS an user i should be able to give path of the audio file and the program displays the sentiment score of the overall audio file.
 (you are free to choose sentiments, opensource models and codes please ensure that there is no complete copy paste done)
