@@ -2,6 +2,7 @@
 To build a model to recognize emotion from speech and transcribed, then convert into a sentiment value
 
 
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#Technologies)
